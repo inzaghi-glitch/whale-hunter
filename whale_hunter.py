@@ -7,8 +7,8 @@ from web3 import Web3
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("whale_hunter")
 
-TELEGRAM_BOT_TOKEN = "8754540510:AAEtDLdtFhP1q9sz-Ey8SSQZ1An6xlzGfRQ"
-TELEGRAM_CHAT_ID   = "6657912641"
+TELEGRAM_BOT_TOKEN = "os.environ.get"
+TELEGRAM_CHAT_ID   = "os.environ.get"
 ALCHEMY_RPC = None
 WATCHED_WALLETS = []
 WHALE_THRESHOLD_USD = 50_000
